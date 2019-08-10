@@ -1,0 +1,11 @@
+public/static/Archive
+public/static/images/*
+public/static/video/*
+public/static/data/*
+TLOv2_client/public/static/Archive
+TLOv2_client/public/static/images/*
+TLOv2_client/public/static/video/*
+TLOv2_client/public/static/data/*
+TLOv2_client/node_modules
+TLOv2_client/env.js
+TLOv2_client/TLOv2_client.rar
