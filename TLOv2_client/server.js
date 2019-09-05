@@ -5,12 +5,13 @@ const http = require("http")
 const fs = require("fs")
 const request = require('request')
 const bodyParser = require('body-parser')
-const { root, ip } = require('./env')
+
+require('dotenv').config({ silent: true })
+const root = process.env.ROOT
+
 const server = http.createServer(app).listen(3001, () => {
 	console.log("Running")
 })
-
-console.log(root + " " + ip)
 
 // const io = require("socket.io")("http://" + root + ":3000")
 

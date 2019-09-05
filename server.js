@@ -5,9 +5,7 @@ const http = require("http")
 const fs = require("fs")
 const _path = require('path')
 const bodyParser = require('body-parser')
-var ip
-// ip = '127.0.0.1'
-ip = '192.168.8.104'
+
 const server = http.createServer(app).listen(3000, () => {
 	console.log("Running")
 })
